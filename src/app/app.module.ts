@@ -15,6 +15,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {HttpClientModule} from '@angular/common/http';
+import { KelvinToCelciusPipe } from './component/pipe/kelvin-to-celcius.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import {HttpClientModule} from '@angular/common/http';
     SelectCityComponent,
     ShowWeatherComponent,
     PageNotFoundComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    KelvinToCelciusPipe
   ],
   imports: [
     BrowserModule,

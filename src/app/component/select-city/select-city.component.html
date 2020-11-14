@@ -6,11 +6,11 @@
     <div>
       <form [formGroup]="cityForm" (ngSubmit)="onSubmit()">
         <mat-form-field appearance="legacy">
-          <mat-label>Enter city name here</mat-label>
+          <mat-label>Wpisz nazwę miescowości</mat-label>
           <input matInput formControlName="cityName">
         </mat-form-field>
         <div class="d-flex justify-content-center">
-          <button mat-raised-button color="primary" type="submit">Show Weather</button>
+          <button mat-raised-button color="primary" type="submit">Pokaż pogodę</button>
         </div>
       </form>
     </div>
